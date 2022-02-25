@@ -1,1 +1,3 @@
-﻿  MarioGameBase.vcxproj -> C:\Users\m019094l\OneDrive - Staffordshire University\GameEngineCreation\Github\GEC-semester-2\GEC-semester-2\Mario\MarioGameBase\Debug\MarioGameBase.exe
+﻿  MarioGameBase.cpp
+C:\Users\m019094l\OneDrive - Staffordshire University\GameEngineCreation\Github\GEC-semester-2\GEC-semester-2\Mario\MarioGameBase\MarioGameBase\MarioGameBase.cpp(41): warning C4715: 'InitSDL': not all control paths return a value
+  MarioGameBase.vcxproj -> C:\Users\m019094l\OneDrive - Staffordshire University\GameEngineCreation\Github\GEC-semester-2\GEC-semester-2\Mario\MarioGameBase\Debug\MarioGameBase.exe
