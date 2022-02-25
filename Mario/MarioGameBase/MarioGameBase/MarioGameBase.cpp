@@ -11,8 +11,17 @@ using namespace std;
 
 //globals
 SDL_Window* g_window = nullptr;
+SDL_Renderer* g_renderer = nullptr;
+SDL_Texture* g_texture = nullptr;
 
 //function prototypes
+bool InitSDL();
+void CLoseSDL();
+bool Update();
+void render();
+SDL_Texture* LoadTextureFromFile(string path);
+void FreeTexture();
+
 bool InitSDL()
 {
 	//setup SDL
@@ -30,6 +39,14 @@ bool InitSDL()
 			SCREEN_WIDTH,
 			SCREEN_HEIGHT,
 			SDL_WINDOW_SHOWN);
+		g_renderer = SDL_CreateRenderer(g_window, -1, SDL_RENDERER_ACCELERATED);
+		if (g_renderer != nullptr)
+		{
+			//init PNG loading
+			int imageFlags = IMG_INIT_PNG;
+			if(!(IMG_Init(imageFlags)&imageFlags))
+				//tutorial 4 step 5 here
+		}
 		//did window get created?
 		if (g_window == nullptr)
 		{
