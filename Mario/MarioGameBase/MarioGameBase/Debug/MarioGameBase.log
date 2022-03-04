@@ -1,3 +1,7 @@
-﻿  MarioGameBase.cpp
-C:\Users\Josh Munn\Documents\GitHub\GEC-semester-2-Mario\Mario\MarioGameBase\MarioGameBase\MarioGameBase.cpp(73): warning C4715: 'InitSDL': not all control paths return a value
-  MarioGameBase.vcxproj -> C:\Users\Josh Munn\Documents\GitHub\GEC-semester-2-Mario\Mario\MarioGameBase\Debug\MarioGameBase.exe
+﻿  Texture2D.cpp
+C:\Users\Josh Munn\Documents\GitHub\GEC-semester-2-Mario\Mario\MarioGameBase\MarioGameBase\Commons.h(20,3): error C2065: 'x': undeclared identifier
+C:\Users\Josh Munn\Documents\GitHub\GEC-semester-2-Mario\Mario\MarioGameBase\MarioGameBase\Commons.h(21,3): error C2065: 'y': undeclared identifier
+C:\Users\Josh Munn\Documents\GitHub\GEC-semester-2-Mario\Mario\MarioGameBase\MarioGameBase\Texture2D.cpp(30,27): error C2084: function 'int Texture2D::GetWidth(void)' already has a body
+C:\Users\Josh Munn\Documents\GitHub\GEC-semester-2-Mario\Mario\MarioGameBase\MarioGameBase\Texture2D.h(18): message : see previous definition of 'GetWidth'
+C:\Users\Josh Munn\Documents\GitHub\GEC-semester-2-Mario\Mario\MarioGameBase\MarioGameBase\Texture2D.cpp(31,28): error C2084: function 'int Texture2D::GetHeight(void)' already has a body
+C:\Users\Josh Munn\Documents\GitHub\GEC-semester-2-Mario\Mario\MarioGameBase\MarioGameBase\Texture2D.h(19): message : see previous definition of 'GetHeight'
